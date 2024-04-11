@@ -851,8 +851,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: VR Space Exploration
-  metroPackageVersion: 
+  metroPackageName: VRSpaceExploration
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -860,7 +860,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: VR Space Exploration
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: VR Space Exploration
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
