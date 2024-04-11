@@ -595,7 +595,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7355396548924337244, guid: 6482d60ecabf05941a50b7bd02f8819b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0085
       objectReference: {fileID: 0}
     - target: {fileID: 7355396548924337244, guid: 6482d60ecabf05941a50b7bd02f8819b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -640,8 +640,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7879133981255710438, guid: 6482d60ecabf05941a50b7bd02f8819b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 454081691}
   m_SourcePrefab: {fileID: 100100000, guid: 6482d60ecabf05941a50b7bd02f8819b, type: 3}
+--- !u!1 &454081690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7879133981255710438, guid: 6482d60ecabf05941a50b7bd02f8819b, type: 3}
+  m_PrefabInstance: {fileID: 454081689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &454081691
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454081690}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &553007553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8997206320499553963, guid: 7c7b5e83eedb05b42a8cb824277b2dca, type: 3}
@@ -657,6 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 903059767}
   - component: {fileID: 903059768}
+  - component: {fileID: 903059769}
   m_Layer: 0
   m_Name: 'Right hand '
   m_TagString: Untagged
@@ -906,6 +936,34 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!114 &903059769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903059766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b785d2c01f3df24ab03aecb68556bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_hand: 1
+  m_fingerAnimations:
+  - disabled: 0
+    ignoreDrive: 0
+    invertDrive: 0
+    finger: -1
+    bone: 1
+    rotation: {x: 0, y: 0, z: 0}
+  m_interactableObject: {fileID: 903059767}
+  m_events:
+    OnAnimationStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnAnimationStopped:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1474961467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491097188}
   - component: {fileID: 1491097189}
+  - component: {fileID: 1491097190}
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
@@ -1115,7 +1174,7 @@ Transform:
   m_GameObject: {fileID: 1491097187}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0004, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1348,6 +1407,34 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!114 &1491097190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491097187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b785d2c01f3df24ab03aecb68556bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_hand: -1
+  m_fingerAnimations:
+  - disabled: 0
+    ignoreDrive: 0
+    invertDrive: 0
+    finger: -1
+    bone: 1
+    rotation: {x: 0, y: 0, z: 0}
+  m_interactableObject: {fileID: 1491097188}
+  m_events:
+    OnAnimationStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnAnimationStopped:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1951100754
 GameObject:
   m_ObjectHideFlags: 0
