@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/VexScene/UI testing.unity
+    guid: b059e6effde4eb84d833af5762932d90
+  - enabled: 1
     path: Assets/Scenes/SpaceStationBay.unity
     guid: c96dc36480312ff47bff34ff8c102039
   - enabled: 1
