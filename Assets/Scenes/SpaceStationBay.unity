@@ -7346,6 +7346,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6358841635488732912, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
+      propertyPath: m_CameraType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7812728455299267011, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
       propertyPath: m_EnableFly
       value: 1
@@ -7356,6 +7360,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7812728455299267011, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
       propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948693859106769781, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
+      propertyPath: m_Depth
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8514331790660357608, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
