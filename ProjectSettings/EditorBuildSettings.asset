@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/VexScene/UI testing.unity
-    guid: b059e6effde4eb84d833af5762932d90
+    path: Assets/Scenes/1 Start Scene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/SpaceStationBay.unity
     guid: c96dc36480312ff47bff34ff8c102039
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Stralve's playground.unity
     guid: 3199c1992080aeb438bb84249d09141f
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f3a4d24a36f31c14ba5689d678fa23c1, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9bec1ce6a03ccba4b9a8215241b32e63, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1, type: 2}
