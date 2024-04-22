@@ -1063,7 +1063,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
+    m_Reference: {fileID: -7632737706121198093, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   head: {fileID: 0}
   spawnDistance: 0.9
   quitButton: {fileID: 7696476379387754619}
