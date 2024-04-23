@@ -11,12 +11,19 @@ using UnityEngine.UI;
 public class GamePauseMenu : MonoBehaviour
 {
 
-    public GameObject menu;
-    public InputActionProperty showButton; //needs to be configured in Unity. set this button to menuButton [LeftHand XR Controller]. Or any input button you like
 
-    public Transform head;
-    public float spawnDistance = 2;
+    public InputActionProperty leftShowButton;
+    public InputActionProperty rightShowButton;
+    public InputActionProperty keyboardShowButton;
 
+    [Header("")]
+    public GameObject menuGameObject;
+    public Transform XROriginMainCamera;
+
+    [Header("")]
+    public float spawnDistance = 0.9f;
+
+    [Header("Menu Buttons")]
     public Button quitButton;
     public Button restartButton;
     public Button resumeButton;
@@ -34,10 +41,10 @@ public class GamePauseMenu : MonoBehaviour
 
     void Update()
     {
-        // Toggle menu on and off
-        if (showButton.action.WasPressedThisFrame())
+        // Toggle menuGameObject on and off
+        if (leftShowButton.action.WasPressedThisFrame() || rightShowButton.action.WasPressedThisFrame() || keyboardShowButton.action.WasPressedThisFrame())
         {
-            ToggleMenu(!menu.activeSelf);
+            ToggleMenu(!menuGameObject.activeSelf);
         }
 
 
@@ -45,13 +52,13 @@ public class GamePauseMenu : MonoBehaviour
 
     public void ToggleMenu(bool isActive)
     {
-        menu.SetActive(isActive);
+        menuGameObject.SetActive(isActive);
 
-        // If activating the menu, set position
+        
         if (isActive)
         {
-            // Distance of menu
-            menu.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
+            // Distance of menuGameObject
+            menuGameObject.transform.position = XROriginMainCamera.position + new Vector3(XROriginMainCamera.forward.x, 0, XROriginMainCamera.forward.z).normalized * spawnDistance;
 
 
 
@@ -60,8 +67,8 @@ public class GamePauseMenu : MonoBehaviour
 
 
             // Always facing camera position
-            menu.transform.LookAt(new Vector3(head.position.x, menu.transform.position.y, head.position.z));
-            menu.transform.forward *= -1;
+            menuGameObject.transform.LookAt(new Vector3(XROriginMainCamera.position.x, menuGameObject.transform.position.y, XROriginMainCamera.position.z));
+            menuGameObject.transform.forward *= -1;
         }
         else
         {

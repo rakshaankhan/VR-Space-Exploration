@@ -110,11 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Untitled design (4)_inPixio_0
+      name: Menu Button Border
       rect:
         serializedVersion: 2
-        x: 54
-        y: 66
+        x: 55
+        y: 67
         width: 292
         height: 93
       alignment: 0
@@ -130,27 +130,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: _Untitled design (4)_inPixio_1
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 15
-        width: 72
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d26c79e7477e77b428daf89cc5be6959
-      internalID: -1064669437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -162,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _Untitled design (4)_inPixio_0: -2056928419
+      Menu Button Border: -2056928419
       _Untitled design (4)_inPixio_1: -1064669437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

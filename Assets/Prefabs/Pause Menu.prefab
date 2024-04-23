@@ -384,8 +384,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3369128144
-  m_fontColor: {r: 0.81761, g: 0.81761, b: 0.81761, a: 0.78431374}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -742,8 +742,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292203989
-  m_fontColor: {r: 0.836478, g: 0.836478, b: 0.836478, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1051,20 +1051,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32a74fa8098ff847b595d6ad7ebc0f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 8375000395369680006}
-  showButton:
+  leftShowButton:
     m_UseReference: 1
     m_Action:
-      m_Name: Show Button
+      m_Name: Left Show Button
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: cf2ccb8b-5a80-46eb-bd70-5f9117bafe23
+      m_Id: 5a6338a1-97ad-45c2-ac7f-0c856be0ef5b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -7632737706121198093, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  head: {fileID: 0}
+  rightShowButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Show Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: fa9b226f-a1fc-4d5e-a2c6-b652206020b2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2844453349046574151, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  keyboardShowButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Keyboard Show Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 81e09a21-1675-42a1-aaed-694dbaed5b68
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
+  menuGameObject: {fileID: 145846892161591591}
+  XROriginMainCamera: {fileID: 0}
   spawnDistance: 0.9
   quitButton: {fileID: 7696476379387754619}
   restartButton: {fileID: 5487404738126846408}
@@ -1145,8 +1169,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3369128144
-  m_fontColor: {r: 0.81761, g: 0.81761, b: 0.81761, a: 0.78431374}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
