@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2045745759609848618
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28,6 +28,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8727468715830252918}
   - {fileID: 1711733285309434459}
   - {fileID: 3490586714770541438}
   - {fileID: 7492088251912364151}
@@ -469,12 +470,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3652898656320299071}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.59, y: 1.52, z: 1}
+  m_LocalScale: {x: 2.51, y: 3.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1202465124180660206}
+  m_Father: {fileID: 2045745759609848618}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1087,9 +1088,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
-  menuGameObject: {fileID: 145846892161591591}
-  XROriginMainCamera: {fileID: 0}
-  spawnDistance: 0.9
+  menu: {fileID: 145846892161591591}
+  head: {fileID: 0}
+  spawnDistance: 0.45
   quitButton: {fileID: 7696476379387754619}
   restartButton: {fileID: 5487404738126846408}
   resumeButton: {fileID: 9069298680126106439}
@@ -1247,7 +1248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1202465124180660206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1255,20 +1256,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8375000395369680006}
-  m_LocalRotation: {x: -0, y: -0.91200286, z: -0, w: -0.41018403}
-  m_LocalPosition: {x: 0, y: 0, z: -1.430542}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8727468715830252918}
   - {fileID: 2045745759609848618}
   m_Father: {fileID: 4464220243406855739}
   m_LocalEulerAnglesHint: {x: 0, y: -363.433, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.7270508, y: -0.042793274}
-  m_SizeDelta: {x: 1266.7478, y: 1050.6671}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!223 &7945586944139060296
 Canvas:
   m_ObjectHideFlags: 0
@@ -1278,9 +1278,9 @@ Canvas:
   m_GameObject: {fileID: 8375000395369680006}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 0.08
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1290,7 +1290,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!114 &8781464634185817509
 MonoBehaviour:
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &5615361067667044722
 MonoBehaviour:
   m_ObjectHideFlags: 0

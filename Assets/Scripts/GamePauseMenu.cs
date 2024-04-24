@@ -17,11 +17,11 @@ public class GamePauseMenu : MonoBehaviour
     public InputActionProperty keyboardShowButton;
 
     [Header("")]
-    public GameObject menuGameObject;
-    public Transform XROriginMainCamera;
+    public GameObject menu;
+    public Transform head;
 
     [Header("")]
-    public float spawnDistance = 0.9f;
+    public float spawnDistance = 0.45f;
 
     [Header("Menu Buttons")]
     public Button quitButton;
@@ -34,17 +34,17 @@ public class GamePauseMenu : MonoBehaviour
     void Start()
     {
         quitButton.onClick.AddListener(QuitGame);
-        restartButton.onClick.AddListener(StartGame);
+        restartButton.onClick.AddListener(RestartGame);
         resumeButton.onClick.AddListener(() => ToggleMenu(false));
 
     }
 
     void Update()
     {
-        // Toggle menuGameObject on and off
+        // Toggle menu on and off
         if (leftShowButton.action.WasPressedThisFrame() || rightShowButton.action.WasPressedThisFrame() || keyboardShowButton.action.WasPressedThisFrame())
         {
-            ToggleMenu(!menuGameObject.activeSelf);
+            ToggleMenu(!menu.activeSelf);
         }
 
 
@@ -52,27 +52,27 @@ public class GamePauseMenu : MonoBehaviour
 
     public void ToggleMenu(bool isActive)
     {
-        menuGameObject.SetActive(isActive);
+        menu.SetActive(isActive);
 
         
         if (isActive)
         {
-            // Distance of menuGameObject
-            menuGameObject.transform.position = XROriginMainCamera.position + new Vector3(XROriginMainCamera.forward.x, 0, XROriginMainCamera.forward.z).normalized * spawnDistance;
+            // Distance of menu
+            Vector3 spawnPosition = head.position + head.forward.normalized * spawnDistance;
+            menu.transform.position = spawnPosition;
 
 
 
-            //Time.timeScale = 0; //add this to "PAUSE" everything in game but it also makes controls studer.
+            Time.timeScale = 0; //add this to "PAUSE" everything in game but it also makes controls studer.
+
+            menu.transform.LookAt(head.position);
+            menu.transform.Rotate(0, 180, 0);
 
 
-
-            // Always facing camera position
-            menuGameObject.transform.LookAt(new Vector3(XROriginMainCamera.position.x, menuGameObject.transform.position.y, XROriginMainCamera.position.z));
-            menuGameObject.transform.forward *= -1;
         }
         else
         {
-            //Time.timeScale = 1;  //add this to "PAUSE" everything in game but it also makes controls studer.
+            Time.timeScale = 1;  //add this to "PAUSE" everything in game but it also makes controls studer.
         }
 
     }
@@ -84,10 +84,13 @@ public class GamePauseMenu : MonoBehaviour
 
         Application.Quit();
     }
-    public void StartGame()
+    public void RestartGame()
     {
-        //Time.timeScale = 1; //add this to "PAUSE" everything in game but it also makes controls studer.
-        SceneTransitionManager.singleton.GoToSceneAsync(2);
+        Time.timeScale = 1; //add this to "PAUSE" everything in game but it also makes controls studer.
+        //SceneTransitionManager.singleton.GoToSceneAsync(2);
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneTransitionManager.singleton.GoToSceneAsync(currentSceneIndex);
     }
 
     public void ResumeGame()
