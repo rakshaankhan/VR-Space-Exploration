@@ -11,14 +11,14 @@ PrefabInstance:
     - target: {fileID: -4753965735298123412, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f9805d602b6a06478dfb7af15fd0cca, type: 2}
+      objectReference: {fileID: 2100000, guid: 5c7dbf8a4c8b45648bfbb3c60ae097b2, type: 2}
     - target: {fileID: -1613288722358393561, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -5283526754500818435, guid: 53f3576fc06540546a039db110412dff, type: 3}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_Size
-      value: 1.1786665
+      value: 1.5715553
       objectReference: {fileID: 0}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_FadeMode
@@ -26,11 +26,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LocalReferencePoint.y
-      value: 0.32391667
+      value: 0.43188888
       objectReference: {fileID: 0}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LocalReferencePoint.z
-      value: -0.0104346275
+      value: -0.013912797
       objectReference: {fileID: 0}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LODs.Array.data[0].renderers.Array.size

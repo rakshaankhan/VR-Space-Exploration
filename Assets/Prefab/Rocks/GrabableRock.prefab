@@ -438,11 +438,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 759e8ecdd66ef614b844d0f68de1f901, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1ddc1c5d37933fe4b8434ce308af5b6d, type: 2}
+      objectReference: {fileID: 2100000, guid: 53b8773c2da9f234a9937416a04f3991, type: 2}
     - target: {fileID: -5754084199372789682, guid: 759e8ecdd66ef614b844d0f68de1f901, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -7230533550593807359, guid: 4d1d96b334b59584a9498a6608633b60, type: 3}
+      objectReference: {fileID: 6467765973437708867, guid: 118b134f883b33547a19db8c7235f2ab, type: 3}
     - target: {fileID: 919132149155446097, guid: 759e8ecdd66ef614b844d0f68de1f901, type: 3}
       propertyPath: m_Name
       value: GrabableRock
