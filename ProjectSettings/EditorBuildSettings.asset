@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stralve's playground.unity
     guid: 3199c1992080aeb438bb84249d09141f
+  - enabled: 1
+    path: Assets/Scenes/MarsNorthpole.unity
+    guid: 9e593f3d6cf5e6c468c2854a16b7602f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
