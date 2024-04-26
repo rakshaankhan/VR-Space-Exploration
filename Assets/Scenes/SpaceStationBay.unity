@@ -12451,6 +12451,10 @@ PrefabInstance:
       propertyPath: head
       value: 
       objectReference: {fileID: 1044298105}
+    - target: {fileID: 1010821235628936878, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
+      propertyPath: spawnDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4464220243406855739, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 577.993
@@ -12502,6 +12506,14 @@ PrefabInstance:
     - target: {fileID: 7945586944139060296, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: m_VertexColorAlwaysGammaSpace
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727468715830252918, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727468715830252918, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
