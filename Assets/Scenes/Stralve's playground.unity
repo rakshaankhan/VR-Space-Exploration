@@ -5350,6 +5350,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1109365975}
+    - target: {fileID: 7945586944139060296, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8727468715830252918, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.45

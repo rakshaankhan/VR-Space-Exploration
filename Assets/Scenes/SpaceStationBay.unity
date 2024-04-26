@@ -12504,6 +12504,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 585510377}
     - target: {fileID: 7945586944139060296, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945586944139060296, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: m_VertexColorAlwaysGammaSpace
       value: 0
       objectReference: {fileID: 0}
