@@ -472,7 +472,7 @@ RectTransform:
   m_GameObject: {fileID: 3652898656320299071}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.51, y: 3.5, z: 1}
+  m_LocalScale: {x: 2.45, y: 4.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2045745759609848618}
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
   menu: {fileID: 145846892161591591}
   head: {fileID: 0}
-  spawnDistance: 0.45
+  spawnDistance: 0.8
   quitButton: {fileID: 7696476379387754619}
   restartButton: {fileID: 5487404738126846408}
   resumeButton: {fileID: 9069298680126106439}
@@ -1281,7 +1281,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 0.08
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0

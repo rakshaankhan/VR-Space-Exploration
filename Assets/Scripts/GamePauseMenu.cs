@@ -63,7 +63,7 @@ public class GamePauseMenu : MonoBehaviour
 
 
 
-            Time.timeScale = 0; //add this to "PAUSE" everything in game but it also makes controls studer.
+            //Time.timeScale = 0; //add this to "PAUSE" everything in game but it also makes controls studer.
 
             menu.transform.LookAt(head.position);
             menu.transform.Rotate(0, 180, 0);
@@ -72,7 +72,7 @@ public class GamePauseMenu : MonoBehaviour
         }
         else
         {
-            Time.timeScale = 1;  //add this to "PAUSE" everything in game but it also makes controls studer.
+            //Time.timeScale = 1;  //add this to "PAUSE" everything in game but it also makes controls studer.
         }
 
     }
@@ -86,8 +86,8 @@ public class GamePauseMenu : MonoBehaviour
     }
     public void RestartGame()
     {
-        Time.timeScale = 1; //add this to "PAUSE" everything in game but it also makes controls studer.
-        //SceneTransitionManager.singleton.GoToSceneAsync(2);
+        //Time.timeScale = 1; //add this to "PAUSE" everything in game but it also makes controls studer.
+        
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneTransitionManager.singleton.GoToSceneAsync(currentSceneIndex);
