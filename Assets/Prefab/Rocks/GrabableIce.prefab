@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 6467765973437708867, guid: 118b134f883b33547a19db8c7235f2ab, type: 3}
+    - target: {fileID: 6105526060282007364, guid: 0360d2e093fad154b91fecc554f6d9a4, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 6467765973437708867, guid: 118b134f883b33547a19db8c7235f2ab, type: 3}
     - target: {fileID: 7139599655422181601, guid: 0360d2e093fad154b91fecc554f6d9a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -56,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrabableIce
       objectReference: {fileID: 0}
+    - target: {fileID: 8313601840582179726, guid: 0360d2e093fad154b91fecc554f6d9a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d841da6def7ba6f4db63541c687f62c7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
