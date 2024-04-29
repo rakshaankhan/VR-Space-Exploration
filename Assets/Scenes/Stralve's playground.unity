@@ -2471,7 +2471,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter
+  m_text: 'to North Pole
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
   m_sharedMaterial: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
@@ -2938,6 +2940,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7584292252706443796, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_SmoothMotionEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944576173868922939, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_Height
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944576173868922939, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8189171602916567489, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
@@ -4090,17 +4100,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522693125}
-  m_LocalRotation: {x: -0, y: 0.06492013, z: -0, w: 0.9978905}
+  m_LocalRotation: {x: -0, y: 0.9995747, z: -0, w: -0.029162379}
   m_LocalPosition: {x: 0, y: 0, z: 23.18}
   m_LocalScale: {x: 0.43411055, y: 0.55645823, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1036575692}
   m_Father: {fileID: 319771448}
-  m_LocalEulerAnglesHint: {x: 0, y: 7.445, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 183.342, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.79, y: -13.82}
+  m_AnchoredPosition: {x: -10.79, y: -14.47}
   m_SizeDelta: {x: 29.0231, y: 9.2421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522693127
