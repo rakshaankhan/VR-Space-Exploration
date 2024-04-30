@@ -46,9 +46,9 @@ Material:
     m_Floats:
     - _Cull: 2
     - _DetailNormalMapScale: 2
-    - _Metallic: 1
+    - _Metallic: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _WorkflowMode: 1
