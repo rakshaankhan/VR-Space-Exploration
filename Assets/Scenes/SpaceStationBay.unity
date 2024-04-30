@@ -3755,12 +3755,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267505220}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7207369, z: -0, w: 0.6932087}
-  m_LocalPosition: {x: 72.057, y: 14, z: -42.692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 585510378}
   m_LocalEulerAnglesHint: {x: 0, y: 92.231, z: 0}
 --- !u!1 &271953469
 GameObject:
@@ -7723,9 +7723,12 @@ PrefabInstance:
     - {fileID: 7470035558554006739, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
     - {fileID: 8786255800933191523, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 3041931744577119350, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
-      insertIndex: 3
+    - targetCorrespondingSourceObject: {fileID: 8761762289553445420, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
+      insertIndex: 0
       addedObject: {fileID: 1805112292}
+    - targetCorrespondingSourceObject: {fileID: 8761762289553445420, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 267505222}
     - targetCorrespondingSourceObject: {fileID: 7948693859106769776, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1490561157}
@@ -7738,7 +7741,7 @@ Camera:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &585510378 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3041931744577119350, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8761762289553445420, guid: 5faa191f334dd6e43ac872f6a479278b, type: 3}
   m_PrefabInstance: {fileID: 585510376}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &587303992
@@ -12652,7 +12655,7 @@ PrefabInstance:
       objectReference: {fileID: 1044298105}
     - target: {fileID: 1010821235628936878, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: spawnDistance
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4464220243406855739, guid: 6231e77254e3693409fd4d8b294c9b9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28289,5 +28292,4 @@ SceneRoots:
   - {fileID: 949303663}
   - {fileID: 793800047}
   - {fileID: 932742810}
-  - {fileID: 267505222}
   - {fileID: 334900437}
