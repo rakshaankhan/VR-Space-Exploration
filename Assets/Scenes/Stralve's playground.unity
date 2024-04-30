@@ -660,6 +660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockVariants
       objectReference: {fileID: 0}
+    - target: {fileID: 4768150880103413833, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1941,6 +1945,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1696902835}
     m_Modifications:
+    - target: {fileID: 1948881562851918502, guid: 5431914c12de8b048a52131df975a309, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2446793384594453050, guid: 5431914c12de8b048a52131df975a309, type: 3}
       propertyPath: m_Constraints
       value: 126
@@ -4287,6 +4295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockVariants
       objectReference: {fileID: 0}
+    - target: {fileID: 4768150880103413833, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5351,6 +5363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockVariants (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4768150880103413833, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5627,6 +5643,10 @@ PrefabInstance:
     - target: {fileID: 4026810083885056480, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_Name
       value: RockVariants
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768150880103413833, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,22 +12,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5c7dbf8a4c8b45648bfbb3c60ae097b2, type: 2}
-    - target: {fileID: -2254575614442752642, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -5283526754500818435, guid: 53f3576fc06540546a039db110412dff, type: 3}
-    - target: {fileID: -2254575614442752642, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_Convex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -2254575614442752642, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
-    - target: {fileID: -2254575614442752642, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_ProvidesContacts
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -1613288722358393561, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -47,10 +31,6 @@ PrefabInstance:
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LocalReferencePoint.z
       value: -0.013912797
-      objectReference: {fileID: 0}
-    - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_LODs.Array.data[0].renderers.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -918441673907257032, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.size
@@ -89,18 +69,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2449064119034229940, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449064119034229940, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449064119034229940, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449064119034229940, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
@@ -124,12 +92,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockVariants-1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4026810083885056480, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 7197131954051967311}
   m_SourcePrefab: {fileID: 100100000, guid: bf54342e6c240014dbb3982d4968004e, type: 3}
 --- !u!23 &1338088191868862727 stripped

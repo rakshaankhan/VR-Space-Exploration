@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
   menu: {fileID: 145846892161591591}
   head: {fileID: 0}
-  spawnDistance: 0.8
+  spawnDistance: 0.3
   quitButton: {fileID: 7696476379387754619}
   restartButton: {fileID: 5487404738126846408}
   resumeButton: {fileID: 9069298680126106439}
