@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cabf67857ebbc1946a96d40ccea5a9f4
+guid: 07930f77cb9b1364fb67a2f2faa945d1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: standardSurface1
-    second: {fileID: 2100000, guid: 29e44f18311aded43b9086e0ef4c96b6, type: 2}
+      name: Mars Rover Cube
+    second: {fileID: 2100000, guid: 7d3c4775ad4104f4cb901d5ccf2e5582, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mars Rover Parts
+    second: {fileID: 2100000, guid: 3be4fa5f736c72f4b91cb864dd162915, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -40,7 +45,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 6
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -95,7 +100,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 10
+    globalScale: 0.06
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
